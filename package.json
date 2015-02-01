@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/martynsmith/node-irc"
+    "url": "http://github.com/helderroem/node-irc"
   },
   "bugs": {
     "mail": "martyn@dollyfish.net.nz",
@@ -34,11 +34,8 @@
   ],
   "dependencies": {
     "ansi-color": "0.2.1",
-    "irc-colors": "^1.1.0"
-  },
-  "optionalDependencies": {
-    "iconv": "~2.1.4",
-    "node-icu-charset-detector": "0.0.7"
+    "irc-colors": "^1.1.0",
+    "iconv-lite": "~0.4.6"
   },
   "devDependencies": {
     "faucet": "0.0.1",
